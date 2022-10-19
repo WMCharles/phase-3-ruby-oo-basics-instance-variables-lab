@@ -1,17 +1,17 @@
 class Dog
 
     # set
-    def name=(dog_name)
-        @this_dogs_name = dog_name
+    def name=(value)
+        @name = value
     end
 
     # get
     def name
-        @this_dogs_name
+        @name
     end
 
 end
 
-lassie = Dog.new
-lassie.name = "Lassie"
-puts lassie.name 
+odie = Dog.new
+odie.name = "Odie"
+puts odie.name 
