@@ -2,12 +2,12 @@ class Dog
 
     # set
     def name=(value)
-        @name = value
+        @this_dogs_name = value
     end
 
     # get
     def name
-        @name
+        @this_dogs_name
     end
 
 end
